@@ -3,8 +3,8 @@
 SMNetwork Manager will help to make the API reqest in an Object Oriented Way with the help of Alamofire. It will help you to make an api request easily with more cofigurable. 
 
 # Features!
-  - Chache api response if required, it easy to configure
-  - In Offline, Store user changes and Synch back once Network reachable.
+  - Cache api response if required, it easy to configure
+  - In Offline, store user changes and synch back once network reachable.
 
 ### Requirement
 
