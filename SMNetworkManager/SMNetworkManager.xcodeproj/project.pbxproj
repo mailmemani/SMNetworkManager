@@ -22,9 +22,7 @@
 		50AAC5E121D336FA0010EC01 /* PendingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AC21D334A50010EC01 /* PendingAPI.swift */; };
 		50AAC5E221D336FA0010EC01 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AD21D334A50010EC01 /* APICache.swift */; };
 		50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; };
-		50AAC5E821D339DB0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5E721D339DB0010EC01 /* Alamofire.framework */; };
-		50AAC5EB21D33E3F0010EC01 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 50AAC5EA21D33E3F0010EC01 /* Cartfile */; };
-		50AAC5EC21D341790010EC01 /* Alamofire.framework in Resources */ = {isa = PBXBuildFile; fileRef = 50AAC5E721D339DB0010EC01 /* Alamofire.framework */; };
+		50AAC5F221D3D15A0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5F121D3D15A0010EC01 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +44,7 @@
 		50AAC5C621D334E30010EC01 /* SMNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AAC5C821D334E30010EC01 /* SMNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetwork.h; sourceTree = "<group>"; };
 		50AAC5C921D334E30010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50AAC5E721D339DB0010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		50AAC5EA21D33E3F0010EC01 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		50AAC5F121D3D15A0010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AAC5E821D339DB0010EC01 /* Alamofire.framework in Frameworks */,
+				50AAC5F221D3D15A0010EC01 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +62,6 @@
 		50AAC57E21D3347D0010EC01 = {
 			isa = PBXGroup;
 			children = (
-				50AAC5EA21D33E3F0010EC01 /* Cartfile */,
 				50AAC58921D3347D0010EC01 /* SMNetworkManager */,
 				50AAC5C721D334E30010EC01 /* SMNetwork */,
 				50AAC58821D3347D0010EC01 /* Products */,
@@ -179,7 +175,7 @@
 		50AAC5D421D336700010EC01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50AAC5E721D339DB0010EC01 /* Alamofire.framework */,
+				50AAC5F121D3D15A0010EC01 /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,8 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AAC5EB21D33E3F0010EC01 /* Cartfile in Resources */,
-				50AAC5EC21D341790010EC01 /* Alamofire.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +271,8 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellScript = "carthage update --platform iOS\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
