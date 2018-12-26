@@ -24,19 +24,6 @@
 		50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; };
 		50AAC5F821D3EB280010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5F721D3EB280010EC01 /* Alamofire.framework */; };
 		50AAC5FA21D3EB3A0010EC01 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50AAC5F921D3EB3A0010EC01 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		50AAC5FE21D3ED320010EC01 /* SMNetworkManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC5FF21D3ED320010EC01 /* ConnectionManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5A121D334A50010EC01 /* ConnectionManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60021D3ED320010EC01 /* OfflineAPIManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5A321D334A50010EC01 /* OfflineAPIManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60121D3ED320010EC01 /* SMNetworkCoreDataManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5A421D334A50010EC01 /* SMNetworkCoreDataManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60221D3ED320010EC01 /* APIKeys.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5A621D334A50010EC01 /* APIKeys.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60321D3ED320010EC01 /* APIManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5A721D334A50010EC01 /* APIManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60421D3ED320010EC01 /* APIBase.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5A821D334A50010EC01 /* APIBase.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60521D3ED320010EC01 /* PendingAPI+CoreDataProperties.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5AB21D334A50010EC01 /* PendingAPI+CoreDataProperties.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60621D3ED320010EC01 /* PendingAPI.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5AC21D334A50010EC01 /* PendingAPI.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60721D3ED320010EC01 /* APICache.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5AD21D334A50010EC01 /* APICache.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60821D3ED320010EC01 /* APICache+CoreDataProperties.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60921D3ED320010EC01 /* SyncOfflineRequestToServer.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5B021D334A50010EC01 /* SyncOfflineRequestToServer.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC60A21D3ED320010EC01 /* SMNetworkContants.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5B221D334A50010EC01 /* SMNetworkContants.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -217,19 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AAC5CA21D334E30010EC01 /* SMNetwork.h in Headers */,
-				50AAC5FE21D3ED320010EC01 /* SMNetworkManager.swift in Headers */,
-				50AAC5FF21D3ED320010EC01 /* ConnectionManager.swift in Headers */,
-				50AAC60021D3ED320010EC01 /* OfflineAPIManager.swift in Headers */,
-				50AAC60121D3ED320010EC01 /* SMNetworkCoreDataManager.swift in Headers */,
-				50AAC60221D3ED320010EC01 /* APIKeys.swift in Headers */,
-				50AAC60321D3ED320010EC01 /* APIManager.swift in Headers */,
-				50AAC60421D3ED320010EC01 /* APIBase.swift in Headers */,
-				50AAC60521D3ED320010EC01 /* PendingAPI+CoreDataProperties.swift in Headers */,
-				50AAC60621D3ED320010EC01 /* PendingAPI.swift in Headers */,
-				50AAC60721D3ED320010EC01 /* APICache.swift in Headers */,
-				50AAC60821D3ED320010EC01 /* APICache+CoreDataProperties.swift in Headers */,
-				50AAC60921D3ED320010EC01 /* SyncOfflineRequestToServer.swift in Headers */,
-				50AAC60A21D3ED320010EC01 /* SMNetworkContants.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
