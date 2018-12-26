@@ -23,6 +23,7 @@
 		50AAC5E221D336FA0010EC01 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AD21D334A50010EC01 /* APICache.swift */; };
 		50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; };
 		50AAC5E821D339DB0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5E721D339DB0010EC01 /* Alamofire.framework */; };
+		50AAC5EB21D33E3F0010EC01 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 50AAC5EA21D33E3F0010EC01 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		50AAC5C821D334E30010EC01 /* SMNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetwork.h; sourceTree = "<group>"; };
 		50AAC5C921D334E30010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AAC5E721D339DB0010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		50AAC5EA21D33E3F0010EC01 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		50AAC57E21D3347D0010EC01 = {
 			isa = PBXGroup;
 			children = (
+				50AAC5EA21D33E3F0010EC01 /* Cartfile */,
 				50AAC58921D3347D0010EC01 /* SMNetworkManager */,
 				50AAC5C721D334E30010EC01 /* SMNetwork */,
 				50AAC58821D3347D0010EC01 /* Products */,
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AAC5EB21D33E3F0010EC01 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +263,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		50AAC5E921D33A730010EC01 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -271,7 +275,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/usr/local/bin/carthage copy-frameworks\n";
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
 		};
