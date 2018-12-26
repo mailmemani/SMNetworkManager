@@ -22,8 +22,22 @@
 		50AAC5E121D336FA0010EC01 /* PendingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AC21D334A50010EC01 /* PendingAPI.swift */; };
 		50AAC5E221D336FA0010EC01 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AD21D334A50010EC01 /* APICache.swift */; };
 		50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; };
-		50AAC5F221D3D15A0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5F121D3D15A0010EC01 /* Alamofire.framework */; };
+		50AAC5F421D3EA410010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5F321D3EA410010EC01 /* Alamofire.framework */; };
+		50AAC5F621D3EA620010EC01 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50AAC5F121D3D15A0010EC01 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50AAC5F521D3EA540010EC01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50AAC5F621D3EA620010EC01 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		50AAC59621D3347E0010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +59,7 @@
 		50AAC5C821D334E30010EC01 /* SMNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetwork.h; sourceTree = "<group>"; };
 		50AAC5C921D334E30010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AAC5F121D3D15A0010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		50AAC5F321D3EA410010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../../../../Desktop/CarthageTest/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AAC5F221D3D15A0010EC01 /* Alamofire.framework in Frameworks */,
+				50AAC5F421D3EA410010EC01 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +190,7 @@
 		50AAC5D421D336700010EC01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50AAC5F321D3EA410010EC01 /* Alamofire.framework */,
 				50AAC5F121D3D15A0010EC01 /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -203,6 +219,7 @@
 				50AAC5C321D334E30010EC01 /* Frameworks */,
 				50AAC5C421D334E30010EC01 /* Resources */,
 				50AAC5E921D33A730010EC01 /* ShellScript */,
+				50AAC5F521D3EA540010EC01 /* CopyFiles */,
 			);
 			buildRules = (
 			);
