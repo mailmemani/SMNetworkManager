@@ -8,8 +8,8 @@ SMNetwork Manager will help to make the API reqest in an Object Oriented Way wit
 
 ### Requirement
 
-* Swift 4
-* Xcode 10
+* Swift 4+
+* Xcode 10+
 
 
 ### Tech
