@@ -277,7 +277,7 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "carthage update --platform iOS\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
