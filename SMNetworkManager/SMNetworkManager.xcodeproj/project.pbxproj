@@ -24,6 +24,7 @@
 		50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; };
 		50AAC5E821D339DB0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC5E721D339DB0010EC01 /* Alamofire.framework */; };
 		50AAC5EB21D33E3F0010EC01 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 50AAC5EA21D33E3F0010EC01 /* Cartfile */; };
+		50AAC5EC21D341790010EC01 /* Alamofire.framework in Resources */ = {isa = PBXBuildFile; fileRef = 50AAC5E721D339DB0010EC01 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AAC5EB21D33E3F0010EC01 /* Cartfile in Resources */,
+				50AAC5EC21D341790010EC01 /* Alamofire.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +271,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			outputFileListPaths = (
 			);
