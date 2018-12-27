@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SMNetwork-Swift.h"
 
 //! Project version number for SMNetwork.
 FOUNDATION_EXPORT double SMNetworkVersionNumber;

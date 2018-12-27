@@ -9,7 +9,20 @@
 /* Begin PBXBuildFile section */
 		50AAC5CA21D334E30010EC01 /* SMNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5C821D334E30010EC01 /* SMNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50AAC60E21D3F23F0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC60D21D3F23F0010EC01 /* Alamofire.framework */; };
-		50AAC61B21D4AE3A0010EC01 /* SMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */; };
+		50AAC63F21D4B4970010EC01 /* SMNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC62921D4B4960010EC01 /* SMNetwork.xcdatamodeld */; };
+		50AAC64021D4B4970010EC01 /* SMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC62B21D4B4960010EC01 /* SMNetworkManager.swift */; };
+		50AAC64121D4B4970010EC01 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC62D21D4B4960010EC01 /* ConnectionManager.swift */; };
+		50AAC64221D4B4970010EC01 /* OfflineAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC62F21D4B4960010EC01 /* OfflineAPIManager.swift */; };
+		50AAC64321D4B4970010EC01 /* SMNetworkCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63021D4B4960010EC01 /* SMNetworkCoreDataManager.swift */; };
+		50AAC64421D4B4970010EC01 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63221D4B4960010EC01 /* APIKeys.swift */; };
+		50AAC64521D4B4970010EC01 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63321D4B4960010EC01 /* APIManager.swift */; };
+		50AAC64621D4B4970010EC01 /* APIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63421D4B4960010EC01 /* APIBase.swift */; };
+		50AAC64721D4B4970010EC01 /* PendingAPI+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63721D4B4960010EC01 /* PendingAPI+CoreDataProperties.swift */; };
+		50AAC64821D4B4970010EC01 /* PendingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63821D4B4960010EC01 /* PendingAPI.swift */; };
+		50AAC64921D4B4970010EC01 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63921D4B4960010EC01 /* APICache.swift */; };
+		50AAC64A21D4B4970010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63A21D4B4960010EC01 /* APICache+CoreDataProperties.swift */; };
+		50AAC64B21D4B4970010EC01 /* SyncOfflineRequestToServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63C21D4B4960010EC01 /* SyncOfflineRequestToServer.swift */; };
+		50AAC64C21D4B4970010EC01 /* SMNetworkContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC63E21D4B4960010EC01 /* SMNetworkContants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,24 +39,24 @@
 
 /* Begin PBXFileReference section */
 		50AAC59621D3347E0010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkManager.swift; sourceTree = "<group>"; };
-		50AAC5A121D334A50010EC01 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
-		50AAC5A321D334A50010EC01 /* OfflineAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineAPIManager.swift; sourceTree = "<group>"; };
-		50AAC5A421D334A50010EC01 /* SMNetworkCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkCoreDataManager.swift; sourceTree = "<group>"; };
-		50AAC5A621D334A50010EC01 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
-		50AAC5A721D334A50010EC01 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		50AAC5A821D334A50010EC01 /* APIBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIBase.swift; sourceTree = "<group>"; };
-		50AAC5AB21D334A50010EC01 /* PendingAPI+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PendingAPI+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		50AAC5AC21D334A50010EC01 /* PendingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingAPI.swift; sourceTree = "<group>"; };
-		50AAC5AD21D334A50010EC01 /* APICache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICache.swift; sourceTree = "<group>"; };
-		50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APICache+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		50AAC5B021D334A50010EC01 /* SyncOfflineRequestToServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncOfflineRequestToServer.swift; sourceTree = "<group>"; };
-		50AAC5B221D334A50010EC01 /* SMNetworkContants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkContants.swift; sourceTree = "<group>"; };
 		50AAC5C621D334E30010EC01 /* SMNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AAC5C821D334E30010EC01 /* SMNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetwork.h; sourceTree = "<group>"; };
 		50AAC5C921D334E30010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AAC60D21D3F23F0010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		50AAC61721D496D00010EC01 /* SMNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMNetwork.xcdatamodel; sourceTree = "<group>"; };
+		50AAC62A21D4B4960010EC01 /* SMNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMNetwork.xcdatamodel; sourceTree = "<group>"; };
+		50AAC62B21D4B4960010EC01 /* SMNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkManager.swift; sourceTree = "<group>"; };
+		50AAC62D21D4B4960010EC01 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		50AAC62F21D4B4960010EC01 /* OfflineAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineAPIManager.swift; sourceTree = "<group>"; };
+		50AAC63021D4B4960010EC01 /* SMNetworkCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkCoreDataManager.swift; sourceTree = "<group>"; };
+		50AAC63221D4B4960010EC01 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		50AAC63321D4B4960010EC01 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		50AAC63421D4B4960010EC01 /* APIBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIBase.swift; sourceTree = "<group>"; };
+		50AAC63721D4B4960010EC01 /* PendingAPI+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PendingAPI+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50AAC63821D4B4960010EC01 /* PendingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingAPI.swift; sourceTree = "<group>"; };
+		50AAC63921D4B4960010EC01 /* APICache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICache.swift; sourceTree = "<group>"; };
+		50AAC63A21D4B4960010EC01 /* APICache+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APICache+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50AAC63C21D4B4960010EC01 /* SyncOfflineRequestToServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncOfflineRequestToServer.swift; sourceTree = "<group>"; };
+		50AAC63E21D4B4960010EC01 /* SMNetworkContants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkContants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,87 +92,10 @@
 		50AAC58921D3347D0010EC01 /* SMNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				50AAC59C21D334A50010EC01 /* SMNetwork */,
 				50AAC59621D3347E0010EC01 /* Info.plist */,
+				50AAC62821D4B4960010EC01 /* SMNetwork */,
 			);
 			path = SMNetworkManager;
-			sourceTree = "<group>";
-		};
-		50AAC59C21D334A50010EC01 /* SMNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC61621D496D00010EC01 /* SMNetwork.xcdatamodeld */,
-				50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */,
-				50AAC5A021D334A50010EC01 /* Managers */,
-				50AAC5A921D334A50010EC01 /* Model */,
-				50AAC5AF21D334A50010EC01 /* API */,
-				50AAC5B121D334A50010EC01 /* SMNetworkConstants */,
-			);
-			path = SMNetwork;
-			sourceTree = "<group>";
-		};
-		50AAC5A021D334A50010EC01 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5A121D334A50010EC01 /* ConnectionManager.swift */,
-				50AAC5A221D334A50010EC01 /* OfflineManager */,
-				50AAC5A421D334A50010EC01 /* SMNetworkCoreDataManager.swift */,
-				50AAC5A521D334A50010EC01 /* APIManager */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		50AAC5A221D334A50010EC01 /* OfflineManager */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5A321D334A50010EC01 /* OfflineAPIManager.swift */,
-			);
-			path = OfflineManager;
-			sourceTree = "<group>";
-		};
-		50AAC5A521D334A50010EC01 /* APIManager */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5A621D334A50010EC01 /* APIKeys.swift */,
-				50AAC5A721D334A50010EC01 /* APIManager.swift */,
-				50AAC5A821D334A50010EC01 /* APIBase.swift */,
-			);
-			path = APIManager;
-			sourceTree = "<group>";
-		};
-		50AAC5A921D334A50010EC01 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5AA21D334A50010EC01 /* DBModel */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		50AAC5AA21D334A50010EC01 /* DBModel */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5AB21D334A50010EC01 /* PendingAPI+CoreDataProperties.swift */,
-				50AAC5AC21D334A50010EC01 /* PendingAPI.swift */,
-				50AAC5AD21D334A50010EC01 /* APICache.swift */,
-				50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */,
-			);
-			path = DBModel;
-			sourceTree = "<group>";
-		};
-		50AAC5AF21D334A50010EC01 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5B021D334A50010EC01 /* SyncOfflineRequestToServer.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		50AAC5B121D334A50010EC01 /* SMNetworkConstants */ = {
-			isa = PBXGroup;
-			children = (
-				50AAC5B221D334A50010EC01 /* SMNetworkContants.swift */,
-			);
-			path = SMNetworkConstants;
 			sourceTree = "<group>";
 		};
 		50AAC5C721D334E30010EC01 /* SMNetwork */ = {
@@ -177,6 +113,83 @@
 				50AAC60D21D3F23F0010EC01 /* Alamofire.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50AAC62821D4B4960010EC01 /* SMNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC62921D4B4960010EC01 /* SMNetwork.xcdatamodeld */,
+				50AAC62B21D4B4960010EC01 /* SMNetworkManager.swift */,
+				50AAC62C21D4B4960010EC01 /* Managers */,
+				50AAC63521D4B4960010EC01 /* Model */,
+				50AAC63B21D4B4960010EC01 /* API */,
+				50AAC63D21D4B4960010EC01 /* SMNetworkConstants */,
+			);
+			path = SMNetwork;
+			sourceTree = "<group>";
+		};
+		50AAC62C21D4B4960010EC01 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC62D21D4B4960010EC01 /* ConnectionManager.swift */,
+				50AAC62E21D4B4960010EC01 /* OfflineManager */,
+				50AAC63021D4B4960010EC01 /* SMNetworkCoreDataManager.swift */,
+				50AAC63121D4B4960010EC01 /* APIManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		50AAC62E21D4B4960010EC01 /* OfflineManager */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC62F21D4B4960010EC01 /* OfflineAPIManager.swift */,
+			);
+			path = OfflineManager;
+			sourceTree = "<group>";
+		};
+		50AAC63121D4B4960010EC01 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC63221D4B4960010EC01 /* APIKeys.swift */,
+				50AAC63321D4B4960010EC01 /* APIManager.swift */,
+				50AAC63421D4B4960010EC01 /* APIBase.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		50AAC63521D4B4960010EC01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC63621D4B4960010EC01 /* DBModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50AAC63621D4B4960010EC01 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC63721D4B4960010EC01 /* PendingAPI+CoreDataProperties.swift */,
+				50AAC63821D4B4960010EC01 /* PendingAPI.swift */,
+				50AAC63921D4B4960010EC01 /* APICache.swift */,
+				50AAC63A21D4B4960010EC01 /* APICache+CoreDataProperties.swift */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		50AAC63B21D4B4960010EC01 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC63C21D4B4960010EC01 /* SyncOfflineRequestToServer.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		50AAC63D21D4B4960010EC01 /* SMNetworkConstants */ = {
+			isa = PBXGroup;
+			children = (
+				50AAC63E21D4B4960010EC01 /* SMNetworkContants.swift */,
+			);
+			path = SMNetworkConstants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +294,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AAC61B21D4AE3A0010EC01 /* SMNetworkManager.swift in Sources */,
+				50AAC64421D4B4970010EC01 /* APIKeys.swift in Sources */,
+				50AAC64021D4B4970010EC01 /* SMNetworkManager.swift in Sources */,
+				50AAC64821D4B4970010EC01 /* PendingAPI.swift in Sources */,
+				50AAC64B21D4B4970010EC01 /* SyncOfflineRequestToServer.swift in Sources */,
+				50AAC64921D4B4970010EC01 /* APICache.swift in Sources */,
+				50AAC64721D4B4970010EC01 /* PendingAPI+CoreDataProperties.swift in Sources */,
+				50AAC64121D4B4970010EC01 /* ConnectionManager.swift in Sources */,
+				50AAC64221D4B4970010EC01 /* OfflineAPIManager.swift in Sources */,
+				50AAC63F21D4B4970010EC01 /* SMNetwork.xcdatamodeld in Sources */,
+				50AAC64621D4B4970010EC01 /* APIBase.swift in Sources */,
+				50AAC64C21D4B4970010EC01 /* SMNetworkContants.swift in Sources */,
+				50AAC64321D4B4970010EC01 /* SMNetworkCoreDataManager.swift in Sources */,
+				50AAC64521D4B4970010EC01 /* APIManager.swift in Sources */,
+				50AAC64A21D4B4970010EC01 /* APICache+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,12 +524,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		50AAC61621D496D00010EC01 /* SMNetwork.xcdatamodeld */ = {
+		50AAC62921D4B4960010EC01 /* SMNetwork.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				50AAC61721D496D00010EC01 /* SMNetwork.xcdatamodel */,
+				50AAC62A21D4B4960010EC01 /* SMNetwork.xcdatamodel */,
 			);
-			currentVersion = 50AAC61721D496D00010EC01 /* SMNetwork.xcdatamodel */;
+			currentVersion = 50AAC62A21D4B4960010EC01 /* SMNetwork.xcdatamodel */;
 			path = SMNetwork.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
