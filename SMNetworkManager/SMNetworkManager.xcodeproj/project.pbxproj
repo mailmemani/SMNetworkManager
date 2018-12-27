@@ -8,21 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		50AAC5CA21D334E30010EC01 /* SMNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AAC5C821D334E30010EC01 /* SMNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50AAC5D321D335770010EC01 /* SMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */; };
-		50AAC5D721D336AC0010EC01 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5A621D334A50010EC01 /* APIKeys.swift */; };
-		50AAC5D821D336AC0010EC01 /* APIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5A821D334A50010EC01 /* APIBase.swift */; };
-		50AAC5D921D336E50010EC01 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5A121D334A50010EC01 /* ConnectionManager.swift */; };
-		50AAC5DA21D336E50010EC01 /* OfflineAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5A321D334A50010EC01 /* OfflineAPIManager.swift */; };
-		50AAC5DB21D336E50010EC01 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5A721D334A50010EC01 /* APIManager.swift */; };
-		50AAC5DC21D336E50010EC01 /* SyncOfflineRequestToServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5B021D334A50010EC01 /* SyncOfflineRequestToServer.swift */; };
-		50AAC5DD21D336E50010EC01 /* SMNetworkContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5B221D334A50010EC01 /* SMNetworkContants.swift */; };
-		50AAC5DE21D336FA0010EC01 /* SMNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC59D21D334A50010EC01 /* SMNetwork.xcdatamodeld */; };
-		50AAC5DF21D336FA0010EC01 /* SMNetworkCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5A421D334A50010EC01 /* SMNetworkCoreDataManager.swift */; };
-		50AAC5E021D336FA0010EC01 /* PendingAPI+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AB21D334A50010EC01 /* PendingAPI+CoreDataProperties.swift */; };
-		50AAC5E121D336FA0010EC01 /* PendingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AC21D334A50010EC01 /* PendingAPI.swift */; };
-		50AAC5E221D336FA0010EC01 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AD21D334A50010EC01 /* APICache.swift */; };
-		50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC5AE21D334A50010EC01 /* APICache+CoreDataProperties.swift */; };
 		50AAC60E21D3F23F0010EC01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AAC60D21D3F23F0010EC01 /* Alamofire.framework */; };
+		50AAC61B21D4AE3A0010EC01 /* SMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		50AAC59621D3347E0010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50AAC59E21D334A50010EC01 /* TTNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTNetwork.xcdatamodel; sourceTree = "<group>"; };
 		50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkManager.swift; sourceTree = "<group>"; };
 		50AAC5A121D334A50010EC01 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		50AAC5A321D334A50010EC01 /* OfflineAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineAPIManager.swift; sourceTree = "<group>"; };
@@ -57,6 +43,7 @@
 		50AAC5C821D334E30010EC01 /* SMNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetwork.h; sourceTree = "<group>"; };
 		50AAC5C921D334E30010EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AAC60D21D3F23F0010EC01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		50AAC61721D496D00010EC01 /* SMNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMNetwork.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +88,7 @@
 		50AAC59C21D334A50010EC01 /* SMNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				50AAC59D21D334A50010EC01 /* SMNetwork.xcdatamodeld */,
+				50AAC61621D496D00010EC01 /* SMNetwork.xcdatamodeld */,
 				50AAC59F21D334A50010EC01 /* SMNetworkManager.swift */,
 				50AAC5A021D334A50010EC01 /* Managers */,
 				50AAC5A921D334A50010EC01 /* Model */,
@@ -294,20 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AAC5DE21D336FA0010EC01 /* SMNetwork.xcdatamodeld in Sources */,
-				50AAC5DF21D336FA0010EC01 /* SMNetworkCoreDataManager.swift in Sources */,
-				50AAC5E021D336FA0010EC01 /* PendingAPI+CoreDataProperties.swift in Sources */,
-				50AAC5E121D336FA0010EC01 /* PendingAPI.swift in Sources */,
-				50AAC5E221D336FA0010EC01 /* APICache.swift in Sources */,
-				50AAC5E321D336FA0010EC01 /* APICache+CoreDataProperties.swift in Sources */,
-				50AAC5D921D336E50010EC01 /* ConnectionManager.swift in Sources */,
-				50AAC5DA21D336E50010EC01 /* OfflineAPIManager.swift in Sources */,
-				50AAC5DB21D336E50010EC01 /* APIManager.swift in Sources */,
-				50AAC5DC21D336E50010EC01 /* SyncOfflineRequestToServer.swift in Sources */,
-				50AAC5DD21D336E50010EC01 /* SMNetworkContants.swift in Sources */,
-				50AAC5D721D336AC0010EC01 /* APIKeys.swift in Sources */,
-				50AAC5D821D336AC0010EC01 /* APIBase.swift in Sources */,
-				50AAC5D321D335770010EC01 /* SMNetworkManager.swift in Sources */,
+				50AAC61B21D4AE3A0010EC01 /* SMNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,12 +498,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		50AAC59D21D334A50010EC01 /* SMNetwork.xcdatamodeld */ = {
+		50AAC61621D496D00010EC01 /* SMNetwork.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				50AAC59E21D334A50010EC01 /* TTNetwork.xcdatamodel */,
+				50AAC61721D496D00010EC01 /* SMNetwork.xcdatamodel */,
 			);
-			currentVersion = 50AAC59E21D334A50010EC01 /* TTNetwork.xcdatamodel */;
+			currentVersion = 50AAC61721D496D00010EC01 /* SMNetwork.xcdatamodel */;
 			path = SMNetwork.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

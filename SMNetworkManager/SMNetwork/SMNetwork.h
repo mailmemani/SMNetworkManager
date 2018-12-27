@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-
 //! Project version number for SMNetwork.
 FOUNDATION_EXPORT double SMNetworkVersionNumber;
 
